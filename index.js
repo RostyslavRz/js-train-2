@@ -3,6 +3,7 @@
 // Створюємо функцію з назвою calculateExpression, яка приймає один аргумент expression
 function calculateExpression(expression) {
   //Преревіряємо чи аргумент є рядком
+  typeof expression === string ? expression : "Argument is not a string";
   //Якщо так повертаємо виконананий код
   // Якщо ні повертаємо текст "Argument is not a string"
 }
